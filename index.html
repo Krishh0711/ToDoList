@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Todo List</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <script src="https://kit.fontawesome.com/8a1d0581a1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="main-container">
+        <div id="div-container" class="header">
+            <h1>To Do List</h1>
+            <input type="text" id="myInput" placeholder="Add new task...">
+            <span onclick="addElement()" class="addButton"><i class="fas fa-plus-circle"></i></span>
+        </div>
+        <div id="report">
+           <p id="task-calculator">0 task remaining</p>
+        </div>
+          
+        <ul id="task-list">
+        </ul>
+        
+       </div>
+
+       <script src="script.js"></script>
+    </body>
+</html>
